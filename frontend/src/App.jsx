@@ -53,21 +53,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   );
 };
 
-/**
- * Aging‑Curve Lab — React front‑end
- * -------------------------------------------------------------
- * Features
- * 1. Player search box with live results ➜ choose a player
- * 2. Line/area chart showing predicted mean ± 1 σ xwOBA‑z for each season
- * 3. "What‑if" sliders to tweak next‑year K %, BB %, Max EV, GB/FB
- * 4. Natural‑language scouting blurb fetched from /explain endpoint
- *
- * Assumed API (FastAPI backend):
- *   GET /players/search?q=<str>          → [{id, name, team}]
- *   GET /players/{id}/forecast           → {curve: [{season, mean, sd}]}
- *   POST /players/{id}/forecast          → same but accepts JSON overrides
- *   GET /players/{id}/explain            → {text: "…"}
- */
+
 
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
 
