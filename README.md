@@ -1,4 +1,3 @@
-MLB Aging Curve Lab
 
 Predicts MLB players' xwOBA season by season using transformer models. Users can explore aging trends and simulate what-if scenarios by adjusting player stats with interactive sliders.
 
